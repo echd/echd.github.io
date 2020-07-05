@@ -1,0 +1,24 @@
+.container {
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"bio bio"
+		"values policy";
+}
+
+.header {
+	grid-area: header;
+}
+
+.bio {
+	grid-area: bio;
+}
+
+.values {
+	grid-area: values;
+}
+
+.policy {
+	grid-area: policy;
+}
+
