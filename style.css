@@ -4,6 +4,7 @@
 		"header header"
 		"bio bio"
 		"values policy";
+	gap: 2rem 1rem;
 }
 
 .header {
@@ -12,8 +13,19 @@
 	flex-direction: row;
 }
 
+.header p img {
+	align-self: stretch;
+}
+
+.header h1 {
+	align-self: center;
+}
+
 .bio {
 	grid-area: bio;
+}
+
+.bio h2, .bio p img {
 	justify-self: center;
 }
 
@@ -24,9 +36,10 @@
 .policy {
 	grid-area: policy;
 	border-left: thin solid blue;
+	padding-left: 1rem;
 }
 
-.values h3, .values img, .policy h3, .policy img {
-	text-align: center;
+.values h3, .values p img, .policy h3, .policy p img {
+	justify-self: center;
 }
 
