@@ -19,27 +19,38 @@
 
 .header h1 {
 	align-self: center;
+	justify-self: center;
 }
 
 .bio {
 	grid-area: bio;
+	display: flex;
+	flex-direction: column;
 }
 
-.bio h2, .bio p img {
-	justify-self: center;
+.bio h2 {
+	align-self: center;
 }
 
 .values {
 	grid-area: values;
+	display: flex;
+	flex-direction: column;
 }
 
 .policy {
 	grid-area: policy;
+	display: flex;
+	flex-direction: column;
 	border-left: thin solid blue;
 	padding-left: 1rem;
 }
 
-.values h3, .values p img, .policy h3, .policy p img {
-	justify-self: center;
+.values h3, .policy h3 {
+	align-self: center;
+}
+
+.video {
+	align-self: center;
 }
 
